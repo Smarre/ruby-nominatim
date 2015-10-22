@@ -1,6 +1,6 @@
 # Nominatim
 
-A Ruby wrapper for the Nominatim API. [![Build Status](https://secure.travis-ci.org/Smarre/nominatim.png?branch=master)](http://travis-ci.org/Smarre/nominatim)
+A Ruby wrapper for the Nominatim API. [![Build Status](https://secure.travis-ci.org/Smarre/ruby-nominatim.png?branch=master)](http://travis-ci.org/Smarre/ruby-nominatim)
 
 This project is a fork from original [Nominatim wrapper for Ruby](https://github.com/jakubsvehla).
 
