@@ -2,16 +2,15 @@
 require File.expand_path('../lib/nominatim/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["Jakub Svehla"]
-  gem.email         = ["jakub.svehla@gmail.com"]
+  gem.authors       = ["Samu Voutilainen"]
+  gem.email         = ["smar@smar.fi"]
   gem.description   = %q{A Ruby wrapper for the Nominatim API.}
   gem.summary       = %q{A Ruby wrapper for the Nominatim API.}
-  gem.homepage      = "https://github.com/jakubsvehla/nominatim"
+  gem.homepage      = "https://github.com/Smarre/ruby-nominatim"
 
-  gem.files         = `git ls-files`.split($\)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
+  gem.files         = [ Dir.glob("lib/**/*.rb") ]
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
-  gem.name          = "nominatim"
+  gem.name          = "ruby-nominatim"
   gem.require_paths = ["lib"]
   gem.version       = Nominatim::VERSION
 
