@@ -1,12 +1,16 @@
 # Nominatim
 
-A Ruby wrapper for the Nominatim API. [![Build Status](https://secure.travis-ci.org/jakubsvehla/nominatim.png?branch=master)](http://travis-ci.org/jakubsvehla/nominatim)
+A Ruby wrapper for the Nominatim API. [![Build Status](https://secure.travis-ci.org/Smarre/nominatim.png?branch=master)](http://travis-ci.org/Smarre/nominatim)
+
+This project is a fork from original [Nominatim wrapper for Ruby](https://github.com/jakubsvehla).
+
+Even though the version was bumped from 0.x to 1.x, the API is compatible with the original project.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'nominatim'
+    gem 'ruby-nominatim'
 
 And then execute:
 
@@ -14,13 +18,11 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install nominatim
+    $ gem install ruby-nominatim
 
 ## Documentation
 
-[http://rdoc.info/gems/nominatim][documentation]
-
-[documentation]: http://rdoc.info/gems/nominatim
+[http://rdoc.info/gems/ruby-nominatim][documentation]
 
 ## Usage
 
@@ -62,11 +64,12 @@ end
 
 ## Supported Ruby Versions
 
-Nominatim is tested under 1.9.2 and 1.9.3.
+Nominatim is tested under 1.9.2 and 1.9.3, 2.1 and 2.2.
 
 ## Copyright
 
 Copyright (c) 2012 Jakub Svehla
+Copyright (c) 2012 onwards ruby-nominatim contributors
 
 MIT License
 
