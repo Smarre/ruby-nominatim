@@ -22,5 +22,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rspec', '~> 2.10'
   gem.add_development_dependency 'webmock', '~> 1.22'
   gem.add_development_dependency 'simplecov', '~> 0.10'
-  gem.add_development_dependency 'yard', '~> 0.8'
+  gem.add_development_dependency 'yard', '~> 0.9', ">= 0.9.11"
 end
